@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background: url(./background\ 4.jpg);
+        color: black;
+        background-size: cover;
+    }
+    fieldset{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 25px;
+        width: 20%;
+        font-size: smaller;
+        font-family: cursive;
+        padding-top: 0px;
+        padding-right: 40px;
+
+
+        
+    }
+    input{
+      padding: 10px;  
+      width: 100%;
+      margin-bottom:20px;
+      outline: none;
+      background: dodgerblue;
+      font-size: large;
+      color: white;
+    }
+    label{
+        font-size: larger;
+        margin-left: 100px;
+    }
+    h1{
+        font-size: xx-large;
+        margin-left: 100px;
+    }
+    h3{
+        margin-left: 70px;
+    }
+    #login{
+        background: violet;
+    }
+    select{
+        padding: 10px;  
+      width: 100%;
+      margin-bottom:20px;
+      outline: none;
+      background: dodgerblue;
+      font-size: large;
+      color: white;
+    }
+    option{
+        color: gainsboro;
+    }
+    ::placeholder{
+        color: white;
+        font-weight: bolder;
+    }
+</style>
+<body>
+    <div class="logo">
+        <img src="./enertainment.png" width="200px">
+    </div>
+    <fieldset>
+        <h1>Vote now</h1>
+        <h3>Vote on this website</h3><br>
+        <label for="user name">user name</label><br>
+        <input type="text" placeholder="user name"><br><br>
+        <label for="user name">email</label><br>
+        <input type="text" placeholder="email"><br><br>
+        <label for="players">football players</label><br>
+        <select>
+            <option>choose best player</option>
+            <option>odegaard</option>
+            <option>messi</option>
+            <option>saliba </option>
+            <option>ronaldo </option>
+            <option>ramsdaare</option>
+            <option>xhaka</option>
+            <option>lewandowski </option>
+            <option>stegen</option>
+        </select>
+        <label for="artist">musician artist</label><br>
+        <select>
+            <option>choose best artist</option>
+            <option>juno</option>
+            <option>kenny sol </option>
+            <option>bushali </option>
+            <option>ish-kevin </option>
+            <option>ariel wayz</option>
+            <option>aly sano </option>
+            <option>diamond  </option>
+            <option>maneskin</option>
+        </select>
+        <label for="artist">choose movie star</label><br>        
+        <select>
+
+            <option>choose movie star</option>
+            <option>the flash</option>
+            <option>the rocky</option>
+            <option>vin diesel</option>
+            <option>transporter</option>
+            <option>idris elba</option>
+            <option>clark kent </option>
+            <option>don yen</option>
+        </select>
+        
+      <br>
+        <input type="submit" id="login" onmouseleave="alert('thanks for voting')">
+    </fieldset>
+</body>
+</html>

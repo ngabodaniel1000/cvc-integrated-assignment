@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background: url(./library.jfif);
+        color: white;
+        background-size: cover;
+        font-size: xx-large;
+    }
+    fieldset{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 30px;
+        width: 20%;
+        font-size: smaller;
+        font-family: cursive;
+        padding-top: 0px;
+        padding-right: 40px;
+
+
+        
+    }
+    input{
+      padding: 10px;  
+      width: 100%;
+      margin-bottom:0px;
+      outline: none;
+      background: dodgerblue;
+      font-size: large;
+      color: white;
+    }
+    label{
+        font-size: larger;
+        margin-left: 100px;
+    }
+    h2{
+        font-size: large;
+        margin-left: 70px;
+    }
+    h3{
+        margin-left: 70px;
+    }
+    #login{
+        background: violet;
+    }
+    select{
+        padding: 10px;  
+      width: 100%;
+      margin-bottom:20px;
+      outline: none;
+      background: dodgerblue;
+      font-size: large;
+      color: white;
+    }
+    option{
+        color: gainsboro;
+    }
+    ::placeholder{
+        color: white;
+        font-weight: bolder;
+    }
+</style>
+<body>
+    <div class="title">
+        <img src="./book.jpg" alt="education" width="200px">
+    </div>
+    <fieldset>
+        <h2>register for course</h2>
+        <label for="user name">student name</label><br>
+        <input type="text" placeholder="student name"><br><br>
+        <label for="class">choose class</label><br>
+        <select>
+            <option>choose class</option>
+            <option>l3c sod</option>
+            <option>l3a sod </option>
+            <option>l3b sod </option>
+            <option>l4a elc </option>
+            <option>l3c elc</option>
+            <option>l3a elc </option>
+            <option>l3b elc </option>
+            <option>l5 all </option>
+        </select>
+        <label for="class">choose book</label><br>
+        <select>
+            <option>choose book</option>
+            <option>mathematics</option>
+            <option>computer</option>
+            <option>graphics</option>
+            <option>english </option>
+            <option>vue js</option>
+            <option>cv control </option>
+            <option>kinyarwanda</option>
+            <option>e-ship </option>
+        </select>
+      
+        <input type="submit" value="Register" id="login" onmouseleave="alert('thanks for register ')">
+    </fieldset>
+    
+</body>
+</html>

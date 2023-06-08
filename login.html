@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background: url(./background.jpg);
+        color: white;
+    }
+    fieldset{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 30px;
+        width: 20%;
+        font-size: large;
+        font-family: cursive;
+        padding-top: 0px;
+        padding-right: 40px;
+
+
+        
+    }
+    input{
+      padding: 10px;  
+      width: 100%;
+      margin-bottom:20px;
+      outline: none;
+      background: blue;
+      font-size: large;
+      color: white;
+    }
+    label{
+        font-size: larger;
+        margin-left: 100px;
+    }
+    h1{
+        font-size: xx-large;
+        margin-left: 100px;
+    }
+    h3{
+        margin-left: 70px;
+    }
+    #login{
+        background: blueviolet;
+    }
+</style>
+<body>
+    <div class="title">
+        <img src="./student.jfif" width="200px">
+    </div>
+    <fieldset>
+        <h1>log in</h1>
+        <h3>login with browser</h3><br>
+        <label for="user name">user name</label><br>
+        <input type="text"><br><br>
+        <label for="user name">password</label><br>
+        <input type="password"><br><br>
+        <input type="submit" value="Login" id="login" onmouseleave="alert('thanks for login here')">
+    </fieldset>
+</body>
+</html>
